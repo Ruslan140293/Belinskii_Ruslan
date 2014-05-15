@@ -1,0 +1,5 @@
+D:\Visual Studio 2012\mb\mb\bin\Debug\mb.exe
+D:\Visual Studio 2012\mb\mb\bin\Debug\mb.pdb
+D:\Visual Studio 2012\mb\mb\obj\Debug\mb.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\mb\mb\obj\Debug\mb.exe
+D:\Visual Studio 2012\mb\mb\obj\Debug\mb.pdb

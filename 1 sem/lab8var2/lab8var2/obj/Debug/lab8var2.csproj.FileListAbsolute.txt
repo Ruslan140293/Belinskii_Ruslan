@@ -1,0 +1,5 @@
+D:\Visual Studio 2012\lab8var2\lab8var2\bin\Debug\lab8var2.exe
+D:\Visual Studio 2012\lab8var2\lab8var2\bin\Debug\lab8var2.pdb
+D:\Visual Studio 2012\lab8var2\lab8var2\obj\Debug\lab8var2.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\lab8var2\lab8var2\obj\Debug\lab8var2.exe
+D:\Visual Studio 2012\lab8var2\lab8var2\obj\Debug\lab8var2.pdb

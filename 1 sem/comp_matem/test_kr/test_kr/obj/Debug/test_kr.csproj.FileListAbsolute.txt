@@ -1,0 +1,5 @@
+D:\Visual Studio 2012\comp_matem\test_kr\test_kr\bin\Debug\test_kr.exe
+D:\Visual Studio 2012\comp_matem\test_kr\test_kr\bin\Debug\test_kr.pdb
+D:\Visual Studio 2012\comp_matem\test_kr\test_kr\obj\Debug\test_kr.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\comp_matem\test_kr\test_kr\obj\Debug\test_kr.exe
+D:\Visual Studio 2012\comp_matem\test_kr\test_kr\obj\Debug\test_kr.pdb

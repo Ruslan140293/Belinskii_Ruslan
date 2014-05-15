@@ -1,0 +1,5 @@
+D:\Visual Studio 2012\comp_matem\lab4v9\lab4v9\bin\Debug\lab4v9.exe
+D:\Visual Studio 2012\comp_matem\lab4v9\lab4v9\bin\Debug\lab4v9.pdb
+D:\Visual Studio 2012\comp_matem\lab4v9\lab4v9\obj\Debug\lab4v9.exe
+D:\Visual Studio 2012\comp_matem\lab4v9\lab4v9\obj\Debug\lab4v9.pdb
+D:\Visual Studio 2012\comp_matem\lab4v9\lab4v9\obj\Debug\lab4v9.csprojResolveAssemblyReference.cache

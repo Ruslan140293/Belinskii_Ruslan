@@ -1,0 +1,5 @@
+D:\Visual Studio 2012\2 sem\program\lab_4\lab_4\bin\Debug\lab_4.exe
+D:\Visual Studio 2012\2 sem\program\lab_4\lab_4\bin\Debug\lab_4.pdb
+D:\Visual Studio 2012\2 sem\program\lab_4\lab_4\obj\Debug\lab_4.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\2 sem\program\lab_4\lab_4\obj\Debug\lab_4.exe
+D:\Visual Studio 2012\2 sem\program\lab_4\lab_4\obj\Debug\lab_4.pdb

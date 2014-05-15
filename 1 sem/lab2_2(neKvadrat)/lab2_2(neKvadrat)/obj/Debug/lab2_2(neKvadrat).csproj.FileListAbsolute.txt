@@ -1,0 +1,4 @@
+D:\Visual Studio 2012\lab2_2(neKvadrat)\lab2_2(neKvadrat)\bin\Debug\lab2_2(neKvadrat).exe
+D:\Visual Studio 2012\lab2_2(neKvadrat)\lab2_2(neKvadrat)\bin\Debug\lab2_2(neKvadrat).pdb
+D:\Visual Studio 2012\lab2_2(neKvadrat)\lab2_2(neKvadrat)\obj\Debug\lab2_2(neKvadrat).exe
+D:\Visual Studio 2012\lab2_2(neKvadrat)\lab2_2(neKvadrat)\obj\Debug\lab2_2(neKvadrat).pdb

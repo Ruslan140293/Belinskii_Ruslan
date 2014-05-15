@@ -1,0 +1,5 @@
+D:\Visual Studio 2012\2 sem\comp matem\lab_5\lab_5\bin\Debug\lab_5.exe
+D:\Visual Studio 2012\2 sem\comp matem\lab_5\lab_5\bin\Debug\lab_5.pdb
+D:\Visual Studio 2012\2 sem\comp matem\lab_5\lab_5\obj\Debug\lab_5.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\2 sem\comp matem\lab_5\lab_5\obj\Debug\lab_5.exe
+D:\Visual Studio 2012\2 sem\comp matem\lab_5\lab_5\obj\Debug\lab_5.pdb
