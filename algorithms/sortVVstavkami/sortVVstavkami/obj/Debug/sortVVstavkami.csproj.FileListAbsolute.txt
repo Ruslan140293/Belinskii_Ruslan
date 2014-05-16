@@ -1,0 +1,5 @@
+D:\Visual Studio 2012\algorithms\sortVVstavkami\sortVVstavkami\bin\Debug\sortVVstavkami.exe
+D:\Visual Studio 2012\algorithms\sortVVstavkami\sortVVstavkami\bin\Debug\sortVVstavkami.pdb
+D:\Visual Studio 2012\algorithms\sortVVstavkami\sortVVstavkami\obj\Debug\sortVVstavkami.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\algorithms\sortVVstavkami\sortVVstavkami\obj\Debug\sortVVstavkami.exe
+D:\Visual Studio 2012\algorithms\sortVVstavkami\sortVVstavkami\obj\Debug\sortVVstavkami.pdb
