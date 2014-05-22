@@ -1,5 +1,0 @@
-D:\Visual Studio 2012\lab3a\lab3a\obj\Debug\lab3a.csprojResolveAssemblyReference.cache
-D:\Visual Studio 2012\lab3a\lab3a\bin\Debug\lab3a.exe
-D:\Visual Studio 2012\lab3a\lab3a\bin\Debug\lab3a.pdb
-D:\Visual Studio 2012\lab3a\lab3a\obj\Debug\lab3a.exe
-D:\Visual Studio 2012\lab3a\lab3a\obj\Debug\lab3a.pdb

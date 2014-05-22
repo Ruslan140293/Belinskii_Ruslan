@@ -1,5 +1,0 @@
-D:\Visual Studio 2012\comp_matem\Lab2(b)\Lab2(b)\bin\Debug\Lab2(b).exe
-D:\Visual Studio 2012\comp_matem\Lab2(b)\Lab2(b)\bin\Debug\Lab2(b).pdb
-D:\Visual Studio 2012\comp_matem\Lab2(b)\Lab2(b)\obj\Debug\Lab2(b).csprojResolveAssemblyReference.cache
-D:\Visual Studio 2012\comp_matem\Lab2(b)\Lab2(b)\obj\Debug\Lab2(b).exe
-D:\Visual Studio 2012\comp_matem\Lab2(b)\Lab2(b)\obj\Debug\Lab2(b).pdb

@@ -1,5 +1,0 @@
-D:\Visual Studio 2012\comp_matem\sasha\sasha\bin\Debug\sasha.exe
-D:\Visual Studio 2012\comp_matem\sasha\sasha\bin\Debug\sasha.pdb
-D:\Visual Studio 2012\comp_matem\sasha\sasha\obj\Debug\sasha.csprojResolveAssemblyReference.cache
-D:\Visual Studio 2012\comp_matem\sasha\sasha\obj\Debug\sasha.exe
-D:\Visual Studio 2012\comp_matem\sasha\sasha\obj\Debug\sasha.pdb

@@ -1,5 +1,0 @@
-D:\Visual Studio 2012\lab1\lab1\bin\Debug\lab1.exe
-D:\Visual Studio 2012\lab1\lab1\bin\Debug\lab1.pdb
-D:\Visual Studio 2012\lab1\lab1\obj\Debug\lab1.exe
-D:\Visual Studio 2012\lab1\lab1\obj\Debug\lab1.pdb
-D:\Visual Studio 2012\lab1\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache

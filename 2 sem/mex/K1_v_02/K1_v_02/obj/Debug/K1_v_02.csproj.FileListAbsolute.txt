@@ -1,5 +1,0 @@
-D:\Visual Studio 2012\2 sem\mex\K1_v_02\K1_v_02\bin\Debug\K1_v_02.exe
-D:\Visual Studio 2012\2 sem\mex\K1_v_02\K1_v_02\bin\Debug\K1_v_02.pdb
-D:\Visual Studio 2012\2 sem\mex\K1_v_02\K1_v_02\obj\Debug\K1_v_02.csprojResolveAssemblyReference.cache
-D:\Visual Studio 2012\2 sem\mex\K1_v_02\K1_v_02\obj\Debug\K1_v_02.exe
-D:\Visual Studio 2012\2 sem\mex\K1_v_02\K1_v_02\obj\Debug\K1_v_02.pdb

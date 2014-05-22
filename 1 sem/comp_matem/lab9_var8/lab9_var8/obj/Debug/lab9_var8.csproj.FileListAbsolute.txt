@@ -1,5 +1,0 @@
-D:\Visual Studio 2012\comp_matem\lab9_var8\lab9_var8\bin\Debug\lab9_var8.exe
-D:\Visual Studio 2012\comp_matem\lab9_var8\lab9_var8\bin\Debug\lab9_var8.pdb
-D:\Visual Studio 2012\comp_matem\lab9_var8\lab9_var8\obj\Debug\lab9_var8.csprojResolveAssemblyReference.cache
-D:\Visual Studio 2012\comp_matem\lab9_var8\lab9_var8\obj\Debug\lab9_var8.exe
-D:\Visual Studio 2012\comp_matem\lab9_var8\lab9_var8\obj\Debug\lab9_var8.pdb

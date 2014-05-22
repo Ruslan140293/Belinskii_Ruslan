@@ -1,5 +1,0 @@
-D:\Visual Studio 2012\comp_matem\lab6\lab6\bin\Debug\lab6.exe
-D:\Visual Studio 2012\comp_matem\lab6\lab6\bin\Debug\lab6.pdb
-D:\Visual Studio 2012\comp_matem\lab6\lab6\obj\Debug\lab6.csprojResolveAssemblyReference.cache
-D:\Visual Studio 2012\comp_matem\lab6\lab6\obj\Debug\lab6.exe
-D:\Visual Studio 2012\comp_matem\lab6\lab6\obj\Debug\lab6.pdb

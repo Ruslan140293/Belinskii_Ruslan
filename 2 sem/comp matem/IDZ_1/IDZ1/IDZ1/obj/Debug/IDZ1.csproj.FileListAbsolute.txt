@@ -1,5 +1,0 @@
-D:\Visual Studio 2012\2 sem\comp matem\IDZ_1\IDZ1\IDZ1\bin\Debug\IDZ1.exe
-D:\Visual Studio 2012\2 sem\comp matem\IDZ_1\IDZ1\IDZ1\bin\Debug\IDZ1.pdb
-D:\Visual Studio 2012\2 sem\comp matem\IDZ_1\IDZ1\IDZ1\obj\Debug\IDZ1.csprojResolveAssemblyReference.cache
-D:\Visual Studio 2012\2 sem\comp matem\IDZ_1\IDZ1\IDZ1\obj\Debug\IDZ1.exe
-D:\Visual Studio 2012\2 sem\comp matem\IDZ_1\IDZ1\IDZ1\obj\Debug\IDZ1.pdb

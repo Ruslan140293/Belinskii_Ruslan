@@ -1,7 +1,0 @@
-D:\Visual Studio 2012\lab6\lab6\bin\Debug\lab6.exe
-D:\Visual Studio 2012\lab6\lab6\bin\Debug\lab6.pdb
-D:\Visual Studio 2012\lab6\lab6\obj\Debug\lab6.csprojResolveAssemblyReference.cache
-D:\Visual Studio 2012\lab6\lab6\obj\Debug\lab6.exe
-D:\Visual Studio 2012\lab6\lab6\obj\Debug\lab6.pdb
-G:\Visual Studio 2012\lab6\lab6\obj\Debug\lab6.exe
-G:\Visual Studio 2012\lab6\lab6\obj\Debug\lab6.pdb

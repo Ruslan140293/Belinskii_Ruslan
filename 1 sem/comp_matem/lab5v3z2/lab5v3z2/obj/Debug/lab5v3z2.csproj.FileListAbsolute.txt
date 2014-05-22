@@ -1,4 +1,0 @@
-D:\Visual Studio 2012\comp_matem\lab5v3z2\lab5v3z2\bin\Debug\lab5v3z2.exe
-D:\Visual Studio 2012\comp_matem\lab5v3z2\lab5v3z2\bin\Debug\lab5v3z2.pdb
-D:\Visual Studio 2012\comp_matem\lab5v3z2\lab5v3z2\obj\Debug\lab5v3z2.exe
-D:\Visual Studio 2012\comp_matem\lab5v3z2\lab5v3z2\obj\Debug\lab5v3z2.pdb
