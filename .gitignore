@@ -1,1 +1,5 @@
-/bin/*
+*.swp
+*.suo
+*.user
+[Bb]in/
+[Oo]bj/
