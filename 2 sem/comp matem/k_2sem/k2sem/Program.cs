@@ -14,21 +14,9 @@ namespace k2sem
             Console.WriteLine("y:"); y = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("z:"); z = Convert.ToInt32(Console.ReadLine());
         }
-        public int X
-        {
-            get { return x; }
-            set { x = value; }
-        }
-        public int Y
-        {
-            get { return y; }
-            set { y = value; }
-        }
-        public int Z
-        {
-            get { return z; }
-            set { z = value; }
-        }
+        public int X { get { return x; } set { x = value; } }
+        public int Y { get { return y; } set { y = value; } }
+        public int Z { get { return z; } set { z = value; } }
     }
     class OdnMas
     {
@@ -42,10 +30,7 @@ namespace k2sem
         public OdnMas(int ch)
         {
             size = ch; massive = new tochka[size];
-            for (int i = 0; i < massive.Length; i++)
-            {
-                massive[i] = new tochka();
-            }
+            for (int i = 0; i < massive.Length; i++) { massive[i] = new tochka(); }
         }
         public tochka this[int index]
         {
@@ -60,12 +45,7 @@ namespace k2sem
                 else Console.WriteLine("-1");
             }
         }
-        public int Size
-        {
-            get { return size; }
-            set { size = value; }
-        }
-
+        public int Size { get { return size; } set { size = value; } }
         private bool provIndex(int index)
         {
             if (index < size && index >= 0) { return true; }

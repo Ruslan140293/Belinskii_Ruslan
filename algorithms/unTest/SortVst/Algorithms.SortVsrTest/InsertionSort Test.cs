@@ -16,7 +16,6 @@ namespace Algorithms.SortVsrTest
                 return Enumerable.Range(1, 10).OrderBy(r => random.Next()).ToArray();
             }
         }
-
         [Test]
         public void InsertionSortBase_NotSortedArray_SortedArrayByAscending()
         {
@@ -28,7 +27,6 @@ namespace Algorithms.SortVsrTest
             //Assert
             Assert.AreEqual(resultArray, sortedArrayByAscending);
         }
-
         [Test]
         public void InsertionSortWithTrinar_NotSortedArray_SortedArrayByAscending()
         {
