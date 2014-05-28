@@ -85,7 +85,8 @@ namespace k2sem
                         Console.WriteLine("Введите индекс:");
                         index = Convert.ToInt32(Console.ReadLine()) - 1;
                         tchk = new tochka(1);
-                        mas[index] = tchk; break;
+                        mas[index] = tchk; 
+                        break;
                     case '3':
                         Console.WriteLine("Введите индекс:");
                         index = Convert.ToInt32(Console.ReadLine()) - 1;
