@@ -3,7 +3,6 @@ using System.Linq;
 using MergeSort;
 using NUnit.Framework;
 
-
 namespace MergeSortTest
 {
     [TestFixture]
