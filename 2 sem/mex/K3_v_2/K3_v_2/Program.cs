@@ -7,8 +7,8 @@ namespace K3_v_2
         public static double t1 = 5.0 / 3.0, r = 20.0;
         public static double COS(double ugl) { return Math.Cos((ugl * Math.PI) / 180.0); }
         public static double SIN(double ugl) { return Math.Sin((ugl * Math.PI) / 180.0); }
-        public static double tM(double t) { return 20 * SIN(Math.PI * t1); }
-        public static double Vr() { return 20 * Math.PI * COS(Math.PI * t1); }
+        public static double tM(double t) { return 20 * Math.Sin(Math.PI * t1); }
+        public static double Vr() { return 20 * Math.PI * Math.Cos(Math.PI * t1); }
         public static double We() { return 0.8 * t1 + 1.0; }
         //public static double alfa() { return tM(t1) / r; }
         //public static double R() { return We() * SIN(alfa()); }
