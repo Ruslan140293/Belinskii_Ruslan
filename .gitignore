@@ -1,6 +1,11 @@
+*.txt
+*.chk
+*.jrs
+*.ide
 *.swp
 *.suo
 *.user
 [Bb]in/
 [Oo]bj/
 [Pp]ackages/
+[Tt]estResults
