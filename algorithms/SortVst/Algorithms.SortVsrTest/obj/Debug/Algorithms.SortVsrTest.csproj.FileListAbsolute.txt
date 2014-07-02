@@ -1,9 +1,0 @@
-F:\Руслан\git_vs2012\algorithms\SortVst\Algorithms.SortVsrTest\bin\Debug\Algorithms.SortVsrTest.dll
-F:\Руслан\git_vs2012\algorithms\SortVst\Algorithms.SortVsrTest\bin\Debug\Algorithms.SortVsrTest.pdb
-F:\Руслан\git_vs2012\algorithms\SortVst\Algorithms.SortVsrTest\bin\Debug\nunit.framework.dll
-F:\Руслан\git_vs2012\algorithms\SortVst\Algorithms.SortVsrTest\bin\Debug\SortVst.dll
-F:\Руслан\git_vs2012\algorithms\SortVst\Algorithms.SortVsrTest\bin\Debug\SortVst.pdb
-F:\Руслан\git_vs2012\algorithms\SortVst\Algorithms.SortVsrTest\bin\Debug\nunit.framework.xml
-F:\Руслан\git_vs2012\algorithms\SortVst\Algorithms.SortVsrTest\obj\Debug\Algorithms.SortVsrTest.csprojResolveAssemblyReference.cache
-F:\Руслан\git_vs2012\algorithms\SortVst\Algorithms.SortVsrTest\obj\Debug\Algorithms.SortVsrTest.dll
-F:\Руслан\git_vs2012\algorithms\SortVst\Algorithms.SortVsrTest\obj\Debug\Algorithms.SortVsrTest.pdb

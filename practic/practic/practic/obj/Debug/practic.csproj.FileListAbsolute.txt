@@ -1,6 +1,0 @@
-F:\Руслан\git_vs2012\practic\practic\practic\bin\Debug\practic.exe.config
-F:\Руслан\git_vs2012\practic\practic\practic\obj\Debug\practic.csprojResolveAssemblyReference.cache
-F:\Руслан\git_vs2012\practic\practic\practic\bin\Debug\practic.exe
-F:\Руслан\git_vs2012\practic\practic\practic\bin\Debug\practic.pdb
-F:\Руслан\git_vs2012\practic\practic\practic\obj\Debug\practic.exe
-F:\Руслан\git_vs2012\practic\practic\practic\obj\Debug\practic.pdb
