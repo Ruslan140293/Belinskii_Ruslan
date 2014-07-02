@@ -1,0 +1,5 @@
+F:\Руслан\git_vs2012\2 sem\mex\K3_v_2\K3_v_2\bin\Debug\K3_v_2.exe
+F:\Руслан\git_vs2012\2 sem\mex\K3_v_2\K3_v_2\bin\Debug\K3_v_2.pdb
+F:\Руслан\git_vs2012\2 sem\mex\K3_v_2\K3_v_2\obj\Debug\K3_v_2.csprojResolveAssemblyReference.cache
+F:\Руслан\git_vs2012\2 sem\mex\K3_v_2\K3_v_2\obj\Debug\K3_v_2.exe
+F:\Руслан\git_vs2012\2 sem\mex\K3_v_2\K3_v_2\obj\Debug\K3_v_2.pdb

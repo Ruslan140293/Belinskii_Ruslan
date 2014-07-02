@@ -1,0 +1,5 @@
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSort\MergeSort\bin\Debug\MergeSort.dll
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSort\MergeSort\bin\Debug\MergeSort.pdb
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSort\MergeSort\obj\Debug\MergeSort.csprojResolveAssemblyReference.cache
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSort\MergeSort\obj\Debug\MergeSort.dll
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSort\MergeSort\obj\Debug\MergeSort.pdb

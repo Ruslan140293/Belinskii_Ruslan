@@ -1,0 +1,9 @@
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSortTest\MergeSortTest\bin\Debug\MergeSortTest.dll
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSortTest\MergeSortTest\bin\Debug\MergeSortTest.pdb
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSortTest\MergeSortTest\bin\Debug\MergeSort.dll
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSortTest\MergeSortTest\bin\Debug\nunit.framework.dll
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSortTest\MergeSortTest\bin\Debug\MergeSort.pdb
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSortTest\MergeSortTest\bin\Debug\nunit.framework.xml
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSortTest\MergeSortTest\obj\Debug\MergeSortTest.csprojResolveAssemblyReference.cache
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSortTest\MergeSortTest\obj\Debug\MergeSortTest.dll
+F:\Руслан\git_vs2012\algorithms\Merge_Sort\MergeSortTest\MergeSortTest\obj\Debug\MergeSortTest.pdb

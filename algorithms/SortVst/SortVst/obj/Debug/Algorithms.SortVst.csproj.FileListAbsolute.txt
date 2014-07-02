@@ -1,0 +1,7 @@
+F:\Руслан\git_vs2012\algorithms\SortVst\SortVst\bin\Debug\SortVst.dll
+F:\Руслан\git_vs2012\algorithms\SortVst\SortVst\bin\Debug\SortVst.pdb
+F:\Руслан\git_vs2012\algorithms\SortVst\SortVst\bin\Debug\nunit.framework.dll
+F:\Руслан\git_vs2012\algorithms\SortVst\SortVst\bin\Debug\nunit.framework.xml
+F:\Руслан\git_vs2012\algorithms\SortVst\SortVst\obj\Debug\Algorithms.SortVst.csprojResolveAssemblyReference.cache
+F:\Руслан\git_vs2012\algorithms\SortVst\SortVst\obj\Debug\SortVst.dll
+F:\Руслан\git_vs2012\algorithms\SortVst\SortVst\obj\Debug\SortVst.pdb
