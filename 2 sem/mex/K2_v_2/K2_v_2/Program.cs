@@ -13,7 +13,7 @@ namespace K2_v_2
         public static double BP() { return Math.Sqrt((r * r) + (r * r) - (2.0 * r * r) * COS(beta + 90.0)); }
         public static double V_b() { return W_cb() * BP(); }
         public static double V_c() { return W_cb() * CP(); }
-        public static double W_a() { return OA * Math.Sqrt((Eoa * Eoa) + (Woa * Woa)); }
+        public static double W_a() { return OA * Math.Sqrt((Eoa * Eoa) + Math.Pow(Woa,4)); }
         public static double W_ao_cs() { return (Woa * Woa) * OA; }
         public static double W_ao_vr() { return Eoa * OA; }
         public static double W_ab_cs() { return (W_cb() * W_cb()) * r; }
