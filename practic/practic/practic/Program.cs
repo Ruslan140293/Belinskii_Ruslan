@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Security.Cryptography.X509Certificates;
 
 namespace practic
 {
@@ -249,13 +248,13 @@ namespace practic
                 x = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Введите координату Y:");
                 y = Convert.ToInt32(Console.ReadLine());
-                if ((x > 0 && x < 66) && (y > 0 && y < 285))
+                if ((x > -1 && x < 67) && (y > -1 && y < 286))
                 {
-                    Console.WriteLine("Не влазит");
+                    flag = false;
                 }
                 else
                 {
-                    flag = false;
+                    Console.WriteLine("Не влазит"); 
                 }
             }
             figura[] ris = new figura[3];
