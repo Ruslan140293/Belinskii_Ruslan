@@ -39,20 +39,20 @@ namespace practic
             h *= mashtab; h1 *= mashtab;
             Console.CursorLeft = (x + 2) * mashtab;
             Console.CursorTop = y * mashtab;
-            for (int i = 0; i < h; i++)
+            for (int i = 0; i < h - mashtab + 1; i++)
             {
                 Console.WriteLine(ch);
                 Console.CursorLeft = (x + 2) * mashtab;
             }//glaza lt
             Console.CursorLeft = (x + 2) * mashtab;
             Console.CursorTop = y * mashtab;
-            for (int i = 0; i < h1; i++)
+            for (int i = 0; i < h1 - mashtab + 1; i++)
             {
                 Console.Write(ch);
             }
             Console.CursorLeft = (x + 4) * mashtab;
             Console.CursorTop = y * mashtab;
-            for (int i = 0; i < h; i++)
+            for (int i = 0; i < h - mashtab + 1; i++)
             {
                 Console.WriteLine(ch);
                 Console.CursorLeft = (x + 4) * mashtab;
@@ -65,23 +65,23 @@ namespace practic
     class golova : figura
     {
         public golova(int a, int b, char c, int mash) : base(a, b, c, mash) { }
-        private int wTop = 5, w = 3, wRot = 7, wDown = 8, s = 1;
+        private int wTop = 5, w = 3, wRot = 7, wDown = 7, s = 1;
         public override void draw()
         {
             wTop *= mashtab; w *= mashtab; wRot *= mashtab; wDown *= mashtab;
             //romb lt
-            Console.CursorLeft =x*mashtab;
+            Console.CursorLeft = x * mashtab;
             Console.CursorTop = (y + 3) * mashtab;
-            for (int i = 0; i < w; i++)
+            for (int i = 0; i < w - mashtab + 1; i++)
             {
                 Console.Write(ch);
                 Console.CursorTop = ((y + 3) * mashtab) - s;
                 s++;
             }
             s = 1;//romb ld
-            Console.CursorLeft = x*mashtab;
+            Console.CursorLeft = x * mashtab;
             Console.CursorTop = (y + 3) * mashtab;
-            for (int i = 0; i < w; i++)
+            for (int i = 0; i < w - mashtab + 1; i++)
             {
                 Console.Write(ch);
                 Console.CursorTop = ((y + 3) * mashtab) + s;
@@ -90,7 +90,7 @@ namespace practic
             Console.CursorLeft = (x + 10) * mashtab;
             Console.CursorTop = (y + 1) * mashtab;
             s = 1;//romb rt
-            for (int i = 0; i < w; i++)
+            for (int i = 0; i < w - mashtab + 1; i++)
             {
                 Console.Write(ch);
                 Console.CursorTop = ((y + 1) * mashtab) + s;
@@ -99,7 +99,7 @@ namespace practic
             Console.CursorLeft = (x + 12) * mashtab;
             Console.CursorTop = (y + 3) * mashtab;
             s = 1;
-            for (int i = 0; i < w; i++)
+            for (int i = 0; i < w - mashtab + 1; i++)
             {
                 Console.Write(ch);
                 Console.CursorTop = ((y + 3) * mashtab) + s;
@@ -108,12 +108,12 @@ namespace practic
             }// golova top
             Console.CursorLeft = (x + 4) * mashtab;
             Console.CursorTop = (y + 1) * mashtab;
-            for (int i = 0; i < wTop; i++)
+            for (int i = 0; i < wTop - mashtab + 1; i++)
                 Console.Write(ch);
             //rot
             Console.CursorLeft = (x + 3) * mashtab;
             Console.CursorTop = (y + 3) * mashtab;
-            for (int i = 0; i < wRot; i++)
+            for (int i = 0; i < wRot - mashtab + 1; i++)
                 Console.Write(ch);
             // nozdrya l
             Console.CursorLeft = (x + 5) * mashtab;
@@ -126,7 +126,7 @@ namespace practic
             //telo d
             Console.CursorLeft = (x + 2) * mashtab;
             Console.CursorTop = (y + 12) * mashtab;
-            for (int i = 0; i < wDown; i++)
+            for (int i = 0; i < wDown + mashtab; i++)
             {
                 Console.Write(ch);
             }
@@ -144,33 +144,33 @@ namespace practic
             //left up
             if (flag)
             {
-                Console.CursorLeft = x*mashtab;
+                Console.CursorLeft = x * mashtab;
                 Console.CursorTop = (y + 7) * mashtab;
-                for (int i = 0; i < w; i++)
+                for (int i = 0; i < w - mashtab + 1; i++)
                 {
                     Console.Write(ch);
                     Console.CursorTop = ((y + 7) * mashtab) - s;
                     s++;
                 }//left l
-                Console.CursorLeft = x*mashtab;
+                Console.CursorLeft = x * mashtab;
                 Console.CursorTop = (y + 7) * mashtab;
-                for (int i = 0; i < h1; i++)
+                for (int i = 0; i < h1 - mashtab + 1; i++)
                 {
                     Console.WriteLine(ch);
-                    Console.CursorLeft = x*mashtab;
+                    Console.CursorLeft = x * mashtab;
                 }
                 s = 0;
                 //Left r
-                for (int i = 0; i < h2; i++)
+                for (int i = 0; i < h2 - mashtab + 1; i++)
                 {
                     Console.CursorLeft = (x + 2) * mashtab;
                     Console.CursorTop = ((y + 5) * mashtab) + s;
                     Console.Write(ch);
                     s++;
                 }//left d
-                Console.CursorLeft = x*mashtab;
+                Console.CursorLeft = x * mashtab;
                 Console.CursorTop = (y + 13) * mashtab;
-                for (int i = 0; i < w; i++)
+                for (int i = 0; i < w - mashtab + 1; i++)
                     Console.Write(ch);
                 s = 1;
             }
@@ -178,7 +178,7 @@ namespace practic
             {//right up
                 Console.CursorLeft = (x + 10) * mashtab;
                 Console.CursorTop = (y + 5) * mashtab;
-                for (int i = 0; i < w; i++)
+                for (int i = 0; i < w - mashtab + 1; i++)
                 {
                     Console.Write(ch);
                     Console.CursorTop = ((y + 5) * mashtab) + s;
@@ -186,13 +186,13 @@ namespace practic
                 }//right r
                 Console.CursorLeft = (x + 12) * mashtab;
                 Console.CursorTop = (y + 7) * mashtab;
-                for (int i = 0; i < h1; i++)
+                for (int i = 0; i < h1 - mashtab + 1; i++)
                 {
                     Console.WriteLine(ch);
                     Console.CursorLeft = (x + 12) * mashtab;
                 }
                 s = 0;// right l
-                for (int i = 0; i < h2; i++)
+                for (int i = 0; i < h2 - mashtab + 1; i++)
                 {
                     Console.CursorLeft = (x + 10) * mashtab;
                     Console.CursorTop = ((y + 5) * mashtab) + s;
@@ -201,7 +201,7 @@ namespace practic
                 }//right d
                 Console.CursorLeft = (x + 10) * mashtab;
                 Console.CursorTop = (y + 13) * mashtab;
-                for (int i = 0; i < w; i++)
+                for (int i = 0; i < w - mashtab + 1; i++)
                     Console.Write(ch);
             }
         }
@@ -221,7 +221,7 @@ namespace practic
                 y = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Введите масштаб:");
                 mash = Convert.ToInt32(Console.ReadLine());
-                if ((x * mash > -1 && x * mash < 67) && (y * mash > -1 && y * mash < 286))
+                if (((x * mash > -1 && x * mash < 67 / mash) && (y * mash > -1 && y * mash < 286 / mash)) && mash < 6)
                 {
                     flag = false;
                 }
