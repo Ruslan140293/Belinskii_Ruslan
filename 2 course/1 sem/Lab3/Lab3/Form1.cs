@@ -145,5 +145,10 @@ namespace Lab3
             }
             textBox2.Text = str;
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

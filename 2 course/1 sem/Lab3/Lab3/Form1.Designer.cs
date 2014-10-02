@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.редактированиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.наибольшееСловоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.наименьшееСловоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вПорядкеВозрастанияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вПорядкеУбыванияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.исключитьСимволToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.заменитьСимволToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -64,12 +64,6 @@
             this.заменитьСимволToolStripMenuItem});
             this.редактированиеToolStripMenuItem.Name = "редактированиеToolStripMenuItem";
             resources.ApplyResources(this.редактированиеToolStripMenuItem, "редактированиеToolStripMenuItem");
-            // 
-            // выходToolStripMenuItem
-            // 
-            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            resources.ApplyResources(this.выходToolStripMenuItem, "выходToolStripMenuItem");
-            this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
             // наибольшееСловоToolStripMenuItem
             // 
@@ -107,6 +101,12 @@
             resources.ApplyResources(this.заменитьСимволToolStripMenuItem, "заменитьСимволToolStripMenuItem");
             this.заменитьСимволToolStripMenuItem.Click += new System.EventHandler(this.заменитьСимволToolStripMenuItem_Click);
             // 
+            // выходToolStripMenuItem
+            // 
+            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
+            resources.ApplyResources(this.выходToolStripMenuItem, "выходToolStripMenuItem");
+            this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
+            // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
@@ -121,6 +121,7 @@
             // 
             resources.ApplyResources(this.textBox1, "textBox1");
             this.textBox1.Name = "textBox1";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
