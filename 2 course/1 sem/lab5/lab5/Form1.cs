@@ -22,6 +22,7 @@ namespace lab5
         TextBox[] skorost;
         TextBox[] uskorenie;
         Button button = new Button();
+        ToolTip tip = new ToolTip();
         public Form1()
         {
             koordinata = new TextBox[n];
@@ -32,7 +33,6 @@ namespace lab5
 
             InitializeComponent();
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Controls.Add(close);
@@ -40,18 +40,15 @@ namespace lab5
             close.Location = new Point(330, 327);
             this.CancelButton = close;
             close.Click += new EventHandler(close_click);
-
             this.Controls.Add(button);
             button.Text = "Расчет";
             button.Location = new Point(330, 270);
             this.CancelButton = close;
             button.Click += new EventHandler(button_click);
-
             this.Controls.Add(zakon);
             zakon.Size = new Size(150, 30);
             zakon.Text = "Закон движения:\r\nX=3t^3+4t^2+10";
             zakon.Location = new Point(200, 10);
-
             for (int i = 0; i < n; i++)
             {
                 koordinata[i] = new TextBox();
@@ -59,33 +56,21 @@ namespace lab5
                 koordinata[i].Size = new Size(68, 20);
                 koordinata[i].Location = new Point(150 + (70 * i), 100);
                 koordinata[i].Enabled = false;
-            }
-            for (int i = 0; i < n; i++)
-            {
                 skorost[i] = new TextBox();
                 this.Controls.Add(skorost[i]);
                 skorost[i].Size = new Size(68, 20);
                 skorost[i].Location = new Point(150 + (70 * i), 122);
                 skorost[i].Enabled = false;
-            }
-            for (int i = 0; i < n; i++)
-            {
                 uskorenie[i] = new TextBox();
                 this.Controls.Add(uskorenie[i]);
                 uskorenie[i].Size = new Size(68, 20);
                 uskorenie[i].Location = new Point(150 + (70 * i), 144);
                 uskorenie[i].Enabled = false;
-            }
-            for (int i = 0; i < n; i++)
-            {
                 t[i] = new Label();
                 this.Controls.Add(t[i]);
                 t[i].Text = "t=" + i*_t;
                 t[i].Size=new Size(30,30);
                 t[i].Location = new Point(170+(i*70),85);
-            }
-            for (int i = 0; i < n; i++)
-            {
                 name[i] = new Label();
                 this.Controls.Add(name[i]);
                 name[i].Text = "";
@@ -95,22 +80,19 @@ namespace lab5
             name[0].Text = "Координата:";
             name[1].Text = "Скорость:";
             name[2].Text = "Ускорение:";
-
             t[0].Click+=new EventHandler(t_click);
             t[1].Click+=new EventHandler(t_click);
             t[2].Click+=new EventHandler(t_click);
-
         }
         private void t_click(object sender, EventArgs e)
         {
             Form2 f2=new Form2();
-            f2.ShowDialog();
-            
+            f2.ShowDialog();            
                 for (int i = 0; i < n; i++)
                 {
                     t[i].Text = "t=" + i*_t;
                 }
-            
+             button_click(sender,e);            
         }
         private void close_click(object sender, EventArgs e)
         {
@@ -128,7 +110,7 @@ namespace lab5
                 }
             }
             else
-            {
+            {             
                 for (int i = 0; i < n; i++)
                 {
                     if (koordinata[i].Text != Convert.ToString(3*Math.Pow(i*_t, 3) + 4*Math.Pow(i*_t, 2) + 10))
@@ -146,11 +128,9 @@ namespace lab5
                 }
             }
         }
-
         private void radioButton1_Click(object sender, EventArgs e)
         {
             button.Text = "Расчет";
-
             for (int i = 0; i < n; i++)
             {
                 koordinata[i].Enabled = false;
@@ -164,11 +144,10 @@ namespace lab5
                 uskorenie[i].Clear();
             }
         }
-
         private void radioButton2_Click(object sender, EventArgs e)
         {
             button.Text = "Проверка";
-
+            tip.AutomaticDelay = 300;
             for (int i = 0; i < n; i++)
             {
                 koordinata[i].Enabled = true;
@@ -177,10 +156,10 @@ namespace lab5
                 koordinata[i].Clear();
                 skorost[i].Clear();
                 uskorenie[i].Clear();
+                tip.SetToolTip(koordinata[i], "3t^3+4t^2+10");
+                tip.SetToolTip(skorost[i], "t(9t+8)");
+                tip.SetToolTip(uskorenie[i], "18t+8");
             }
-
         }
-
     }
-
 }

@@ -8,6 +8,7 @@ namespace lab5
         public Form2()
         {
             InitializeComponent();
+            numericUpDown1.Value = Form1._t;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -19,6 +20,11 @@ namespace lab5
         {
             Form1._t = Convert.ToInt32(numericUpDown1.Value);
             Close();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
