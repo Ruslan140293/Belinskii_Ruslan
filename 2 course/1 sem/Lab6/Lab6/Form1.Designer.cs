@@ -120,6 +120,11 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Filter = "\"Text Documents (*.txt) |*.txt|All Files |*.*\"";
+            // 
+            // fontDialog1
+            // 
+            this.fontDialog1.Color = System.Drawing.SystemColors.ControlText;
             // 
             // richTextBox1
             // 
