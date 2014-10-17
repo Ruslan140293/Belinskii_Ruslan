@@ -28,6 +28,7 @@
     /// </summary>
     private void InitializeComponent()
     {
+            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.новыйToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,7 +45,11 @@
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.шрифтToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.цветToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -75,7 +80,7 @@
             this.вИмеющемсяКатологеToolStripMenuItem,
             this.вНовомКатологеToolStripMenuItem});
             this.новыйToolStripMenuItem.Name = "новыйToolStripMenuItem";
-            this.новыйToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.новыйToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.новыйToolStripMenuItem.Text = "Новый";
             // 
             // вТекущемКатологеToolStripMenuItem
@@ -90,25 +95,28 @@
             this.вИмеющемсяКатологеToolStripMenuItem.Name = "вИмеющемсяКатологеToolStripMenuItem";
             this.вИмеющемсяКатологеToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
             this.вИмеющемсяКатологеToolStripMenuItem.Text = "В имеющемся катологе";
+            this.вИмеющемсяКатологеToolStripMenuItem.Click += new System.EventHandler(this.вИмеющемсяКатологеToolStripMenuItem_Click);
             // 
             // вНовомКатологеToolStripMenuItem
             // 
             this.вНовомКатологеToolStripMenuItem.Name = "вНовомКатологеToolStripMenuItem";
             this.вНовомКатологеToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
             this.вНовомКатологеToolStripMenuItem.Text = "В новом катологе";
+            this.вНовомКатологеToolStripMenuItem.Click += new System.EventHandler(this.вНовомКатологеToolStripMenuItem_Click);
             // 
             // открытьToolStripMenuItem
             // 
             this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.открытьToolStripMenuItem.Text = "Открыть";
             this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
             // 
             // сохранитьToolStripMenuItem
             // 
             this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.сохранитьToolStripMenuItem.Text = "Сохранить";
+            this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
             // 
             // выходToolStripMenuItem
             // 
@@ -117,10 +125,22 @@
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.CheckFileExists = true;
+            this.saveFileDialog1.Filter = "RTF-формат|*.rtf|Текст|*.txt";
+            // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            this.openFileDialog1.Filter = "\"Text Documents (*.txt) |*.txt|All Files |*.*\"";
+            this.openFileDialog1.Filter = "RTF-формат|*.rtf|Текст|*.txt";
+            // 
+            // folderBrowserDialog1
+            // 
+            this.folderBrowserDialog1.Description = "Выбирете каталог";
+            this.folderBrowserDialog1.RootFolder = System.Environment.SpecialFolder.LocalizedResources;
+            this.folderBrowserDialog1.SelectedPath = "D:\\git_study\\2 course\\1 sem\\Lab6\\Lab6\\bin\\Debug";
+            this.folderBrowserDialog1.ShowNewFolderButton = false;
             // 
             // fontDialog1
             // 
@@ -128,6 +148,7 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.ContextMenuStrip = this.contextMenuStrip1;
             this.richTextBox1.Location = new System.Drawing.Point(12, 43);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(767, 312);
@@ -143,6 +164,28 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "label1";
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.шрифтToolStripMenuItem,
+            this.цветToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 70);
+            // 
+            // шрифтToolStripMenuItem
+            // 
+            this.шрифтToolStripMenuItem.Name = "шрифтToolStripMenuItem";
+            this.шрифтToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.шрифтToolStripMenuItem.Text = "Шрифт";
+            this.шрифтToolStripMenuItem.Click += new System.EventHandler(this.шрифтToolStripMenuItem_Click);
+            // 
+            // цветToolStripMenuItem
+            // 
+            this.цветToolStripMenuItem.Name = "цветToolStripMenuItem";
+            this.цветToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.цветToolStripMenuItem.Text = "Цвет";
+            this.цветToolStripMenuItem.Click += new System.EventHandler(this.цветToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -157,6 +200,7 @@
             this.Text = "Работа с файлами";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -180,6 +224,9 @@
     private System.Windows.Forms.ColorDialog colorDialog1;
     private System.Windows.Forms.RichTextBox richTextBox1;
     private System.Windows.Forms.Label label1;
+    private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+    private System.Windows.Forms.ToolStripMenuItem шрифтToolStripMenuItem;
+    private System.Windows.Forms.ToolStripMenuItem цветToolStripMenuItem;
   }
 }
 

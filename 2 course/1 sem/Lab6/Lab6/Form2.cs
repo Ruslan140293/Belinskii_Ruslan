@@ -26,8 +26,7 @@ namespace Lab6
     {
         if (textBox1.Text.Length != 0 && comboBox1.Text.Length != 0)
         {
-            Form1.name=textBox1.Text;
-            Form1.rasw = comboBox1.Text;
+            Form1.NameOfFile = textBox1.Text + comboBox1.Text;
             Close(); 
         }
         else
